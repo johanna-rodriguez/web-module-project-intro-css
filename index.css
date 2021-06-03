@@ -40,7 +40,7 @@ blockquote, q {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 
 /*General Styles*/
@@ -97,8 +97,8 @@ nav a{
 
 /*Top Section Styles*/
 .top{
-    /*text-align:center;*/
-    position:relative;
+    text-align:center;
+    /* position:relative; */
 }
 .left img{
 border-radius:50%;
@@ -106,19 +106,25 @@ width:70%;
 }
 
 .left, .right{
-display:inline-block;
 text-align: center;
+display:inline-block;
+overflow-y: auto;
+
 }
 .left{
-width:40%;
+width:500px;
 text-align:center;
 }
 .right{
-width:45;
-margin: left 3%;
-position:absolute; 
-top:40%;
-text-align:center;
+    width:45%;
+    margin: left 3%;
+    /* position:absolute;  */
+    /* top:40%; */
+    text-align:center; 
+}
+
+.right h2{
+    padding-top: 3%;
 }
 
 /*background image section*/
@@ -170,5 +176,6 @@ footer{
 }
 
 #header_text{
+    padding: 3% 23%;
     text-align: center;
 }
