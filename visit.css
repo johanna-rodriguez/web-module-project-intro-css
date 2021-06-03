@@ -1,0 +1,51 @@
+li {
+    display: list-item;
+    list-style-position: inside;
+    color:rgb(131, 11, 111); 
+    font-style:italic;
+    font-size: 20px;
+    
+
+  }
+
+ol{
+    padding: 1% 5%;
+    list-style: decimal;
+    font-size: 100%;
+    text-align:left;
+}
+
+
+
+.top_things_list{
+    background-color: #bcd1df;
+    color: rgb(68, 65, 82);
+    /* text-align: center; */
+    margin: 5%;
+    
+}
+
+.top_things_list h3{
+    padding-left: 3%;
+    font-size: 30px;
+}
+
+
+
+.plan_visit h2{
+    padding-left: 3%;
+    font-size: 30px;
+}
+
+
+.plan_visit{
+    color: rgb(68, 65, 82);
+    /* text-align: center; */
+    margin: 5%;
+    color:rgb(78, 49, 158);
+    background-color: rgb(219, 119, 169);
+}
+
+.plan_visit p{
+    padding: 1% 5%;
+}

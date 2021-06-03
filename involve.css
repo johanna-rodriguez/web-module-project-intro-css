@@ -1,0 +1,60 @@
+
+
+
+.involve div{
+    padding:0  3%;
+    font-size: 30px;
+
+}
+
+.involve h2{
+    border-bottom: solid;
+
+}
+
+
+.involve{
+    color: rgb(68, 65, 82);
+    /* text-align: center; */
+    margin: 5%;
+    color:rgb(41, 30, 4);
+    background-color: rgba(96, 53, 8, 0.233);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 30%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  .box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 80%;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 95%; /* Set the width of the positioned div */
+    height: 20%;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
